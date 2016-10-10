@@ -1,0 +1,29 @@
+{
+  "name": "server-render",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-preset-react-app": "^0.2.1",
+    "babel-register": "^6.16.3",
+    "css-modules-require-hook": "^4.0.5",
+    "react-scripts": "0.6.1"
+  },
+  "dependencies": {
+    "asset-require-hook": "^1.0.2",
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "express-hbs": "^1.0.3",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-router": "^2.8.1",
+    "superagent": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "start:server": "NODE_ENV=development node src/start"
+  }
+}
